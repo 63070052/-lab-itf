@@ -9,13 +9,13 @@ if (mysqli_connect_errno($conn))
 
 
 $Id = $_POST['id'];
-$A = $_POST['a'];
-$B = $_POST['b'];
+$AAA = $_POST['a'];
+$BBB = $_POST['b'];
 // $c = $_POST['c'];
 
 
 
-$sql = "INSERT INTO guestbook (A , B, C) VALUES ('$A', '$B', '$A+$B')";
+$sql = "INSERT INTO guestbook (A , B, C) VALUES ('$AAA', '$BBB', '$AAA+$BBB')";
 
 
 if (mysqli_query($conn, $sql)) {
