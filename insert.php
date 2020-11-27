@@ -4,7 +4,7 @@ require('connect.php');
         $name = $_POST['name'];
         $weight = $_POST['weight'];
         $height = $_POST['height'];
-        $bmi = $weigt / $height;
+        $bmi = $weight / $height;
 
         $sql = "INSERT INTO guestbook (name, weight, height, bmi) value ('$name','$weight', '$height', '$bmi')";
 
