@@ -1,6 +1,6 @@
 <?php
 	$conn = mysqli_connect('testlabitf.mysql.database.azure.com', 'test@testlabitf', 'YHVexv86', 'itf');
-	$sql = 'DELETE FROM labitf WHERE Id = '.$_GET['id'].'';
+	$sql = 'DELETE FROM guestbook WHERE Id = '.$_GET['id'].'';
 ?>
 <!DOCTYPE html>
 <html>
