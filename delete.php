@@ -14,8 +14,7 @@
 <body class="bg-light py-5">
 	<?php
 		$conn = mysqli_connect('testlabitf.mysql.database.azure.com', 'test@testlabitf', 'YHVexv86', 'itf');
-
-		$sql = 'DELETE FROM guestbook WHERE id = $_GET['id']';
+		$sql = 'DELETE FROM guestbook WHERE id = .$_GET['id'].';
 		
 	?>
 	<div class="container text-dark">
