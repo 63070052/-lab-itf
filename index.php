@@ -33,10 +33,10 @@
 							<table class="table thead-inverse">
 								<thead>
 									<tr>
-										<th width="150px">BMI</th>
-										<th>Name</th>
-										<th>Amount</th>
-										<th>Total</th>
+										<th width="150px>Name</th>
+										<th>Weight</th>
+										<th>Height</th>
+										<th>BMI</th>
 									</tr>
 								</thead>
 								<tbody>
