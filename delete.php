@@ -1,7 +1,4 @@
-<?php
-	$conn = mysqli_connect('testlabitf.mysql.database.azure.com', 'test@testlabitf', 'YHVexv86', 'itf');
-	$sql = 'DELETE FROM guestbook WHERE id = '.$_GET['id'].'';
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,6 +12,11 @@
 	</style>
 </head>
 <body class="bg-light py-5">
+	<?php
+		$conn = mysqli_connect('testlabitf.mysql.database.azure.com', 'test@testlabitf', 'YHVexv86', 'itf');
+		$sql = 'DELETE FROM guestbook WHERE id = '.$_GET['id'].'';
+		echo $sql;
+	?>
 	<div class="container text-dark">
 		<div class="row">
 			<div class="col-12 col-lg-8 offset-lg-2">
