@@ -48,7 +48,7 @@
 										<td><?php echo $Result['weight'];?></td>
 										<td><?php echo $Result['height'];?></td>
                                         <td><?php echo $Result['bmi'];?></td>
-                                        <td><a href="delete.php?Id=<?php echo $Result['id'];?>" class="btn btn-warning mb-2 mb-md-0">DEL</a>
+                                        <td><a href="delete.php?id=<?php echo $Result['id'];?>" class="btn btn-warning mb-2 mb-md-0">DEL</a>
 									</tr>
 									<?php
 										}
