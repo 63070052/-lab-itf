@@ -15,7 +15,7 @@
 	<?php
 		$conn = mysqli_connect('testlabitf.mysql.database.azure.com', 'test@testlabitf', 'YHVexv86', 'itf');
 		
-		$sql = 'DELETE FROM guestbook WHERE id = "$id"';
+		$sql = 'DELETE FROM guestbook WHERE id = $id';
 		echo $sql;
 	?>
 	<div class="container text-dark">
