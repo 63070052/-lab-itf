@@ -33,7 +33,7 @@
 							<table class="table thead-inverse">
 								<thead>
 									<tr>
-										<th width="150px>Name</th>
+										<th width="150px">Name</th>
 										<th>Weight</th>
 										<th>Height</th>
 										<th>BMI</th>
