@@ -2,7 +2,7 @@
 require('connect.php');
     if(isset($_POST['submit'])){
         $name = $_POST['name'];
-        $weigt = $_POST['weight'];
+        $weight = $_POST['weight'];
         $height = $_POST['height'];
         $bmi = $weigt / $height;
 
